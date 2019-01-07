@@ -11,4 +11,9 @@ public class User {
     public void setName(String aName) {
         name = aName;
     }
+
+    @Override
+    public String toString() {
+        return "User [name=" + name + "]";
+    }
 }
