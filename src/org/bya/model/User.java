@@ -1,5 +1,6 @@
 package org.bya.model;
 
-public class User {
 
+public class User {
+    private String name;
 }
