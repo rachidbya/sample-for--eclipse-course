@@ -5,6 +5,16 @@ public class User {
     private String name;
     private int age;
 
+    public User() {
+        super();
+    }
+
+    public User(String aName, int aAge) {
+        super();
+        name = aName;
+        age = aAge;
+    }
+
     public int getAge() {
         return age;
     }
